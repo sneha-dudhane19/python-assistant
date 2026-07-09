@@ -11,7 +11,7 @@ def get_file_extension(file_name):
     """
     return file_name.split(".")[-1]
 
-print("Get file extension:", get_file_extension("example.txt"))  # Example usage of the function
+#print("Get file extension:", get_file_extension("example.txt"))  # Example usage of the function
 
 def build_table_name(source, entity):
     """
@@ -26,7 +26,7 @@ def build_table_name(source, entity):
     """
     return f"{source.lower()}_{entity.lower()}".replace(" ", "_")
 
-print("Constructed table name:", build_table_name("HR Data", "Employee"))  # Example usage of the function
+#print("Constructed table name:", build_table_name("HR Data", "Employee"))  # Example usage of the function
 
 def is_csv_file(file_name):
     """
@@ -40,8 +40,8 @@ def is_csv_file(file_name):
     """
     return file_name.lower().endswith(".csv")
 
-print("Example.csv -> Is CSV file:", is_csv_file("example.csv"))  # Example usage of the function
-print("Example.txt -> Is CSV file:", is_csv_file("example.txt"))  # Example usage of the function
+#print("Example.csv -> Is CSV file:", is_csv_file("example.csv"))  # Example usage of the function
+#print("Example.txt -> Is CSV file:", is_csv_file("example.txt"))  # Example usage of the function
 
 def validate_file_name(file_name):
     """
