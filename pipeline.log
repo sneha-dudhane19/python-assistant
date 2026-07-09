@@ -1,0 +1,4 @@
+INFO:root:Starting to read customers.csv file
+INFO:root:File read successfully. Customer dataframe created.
+INFO:root:Customer dataframe has all expected columns
+INFO:root:End of pipeline
